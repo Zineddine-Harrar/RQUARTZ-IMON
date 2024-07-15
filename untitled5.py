@@ -29,8 +29,8 @@ st.markdown(
 )
 
 # Charger les fichiers CSV
-planning_df = pd.read_csv('C:\\Users\\zined\\Downloads\\PLANNING RQUARTZ IMON .csv', delimiter=';', encoding='ISO-8859-1')
-details_df = pd.read_csv('C:\\Users\\zined\\OneDrive - ATALIAN\\Documents\\Db RQUARTA-ECOBOT40\\RQUARTZ-IMON-(15-07-2024).csv', encoding='ISO-8859-1', delimiter=';', on_bad_lines='skip')
+planning_df = pd.read_csv('PLANNING RQUARTZ IMON .csv', delimiter=';', encoding='ISO-8859-1')
+details_df = pd.read_csv('RQUARTZ-IMON-(15-07-2024).csv', encoding='ISO-8859-1', delimiter=';', on_bad_lines='skip')
 
 # Nettoyer les colonnes dans details_df
 details_df.columns = details_df.columns.str.replace('\r\n', '').str.strip()
