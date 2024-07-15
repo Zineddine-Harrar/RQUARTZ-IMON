@@ -154,7 +154,7 @@ def calculate_weekly_indicators(details_df, semaine):
 # Interface Streamlit
 
 # Afficher les logos côte à côte
-logo_path1 = "C:\\Users\\zined\\Downloads\\atalian-logo (1).png"
+logo_path1 = "atalian-logo (1).png"
 st.image(logo_path1, width=150)  # Ajustez la largeur selon vos besoins
 
 
